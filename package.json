@@ -35,5 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://swapi.dev/api/"
+  "proxy": "https://swapi.dev/api/",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
 }

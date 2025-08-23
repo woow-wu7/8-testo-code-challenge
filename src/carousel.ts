@@ -1,10 +1,3 @@
-### Testo-Code-Challenge
-
-### (1) Carousel
-
-#### 1.1 Carousel implementation
-
-```ts
 type ScrollResult = {
   internalIndex: number;
   needsJump: boolean;
@@ -41,7 +34,7 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 }
 
 // Test Case:
-/** 1
+/**
 //  const result0 = simulateScroll(["A", "B", "C"], 0);
 //  const result3 = simulateScroll(["A", "B", "C"], 3);
 //  const result4 = simulateScroll(["A", "B", "C"], 4);
@@ -53,7 +46,8 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 // App.js:14 5 {internalIndex: 3, needsJump: false}
 // App.js:15 6 {internalIndex: 4, needsJump: true, jumpToIndex: 1}
 */
-/** 2
+
+/** 
 //  const resultD0 = simulateScroll(["A", "B", "C", "D"], 0);
 //  const resultD1 = simulateScroll(["A", "B", "C", "D"], 1);
 //  const resultD2 = simulateScroll(["A", "B", "C", "D"], 2);
@@ -73,53 +67,3 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 // App.js:33 D7 {internalIndex: 4, needsJump: false}
 // App.js:34 D8 {internalIndex: 5, needsJump: true, jumpToIndex: 1}
 */
-```
-
-#### 1.2 Requirements:
-
-```
-Question:
-
-Part 1: Problem-solving
-Problem: Simulate Infinite Scroll Indexing.
-In a banner carousel, we want to simulate infinite scrolling by cloning the first and last banners and inserting them at the beginning and end of the banner list.
-
-For example, if the original list is:
-["A", "B", "C"]
-And the augmented list is:
-["C", "A", "B", "C", "A"]
-
-The carousel starts at index 1, which is the first real item ( "A" ).
-When scrolling right (forward), the internal index increases.In the real front-end banner component, the scroll to the cloned banner A is animated, and followed by an instant jump to the real A, creating an illusion of infinite scrolling.
-```
-
-### English
-
-```
-1
-【 tackle 应付 解决 v 】
-【 tack 大头钉 图钉 n / 钉上 v 】
-【 pin 大头针 别针 钢钉 钢针 n / 钉住 别住 v 】
--
-【 tackle the task. 解决任务 v 】
-【 tackle the problem. 解决问题 v 】
--
-1.1
-他准备把便签纸用大头钉钉在墙上，便签纸上有我们需要解决的任务
-He is preparing to 【 tack / pin 】 the 【 sticky notes 】 to the wall with 【 tacks 】, and there are tasks that we need to 【 tackle 】 on the sticky notes.
-// -- 【 sticky notes. 便签 n 】
-// -- 【 tack VS tackle VS pin 】
--
-1.2
-Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
-请丢弃幻想，立即着手处理这项任务
-
-
-2
-【 illusion 幻想 错觉 n 】
-【 discard illusion. 丢弃幻想 v 】
--
-2.1
-Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
-请丢弃幻想，立即着手处理这项任务
-```
