@@ -101,6 +101,7 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
+![2](./public/image-text-section3.png)
 
 ### English
 
