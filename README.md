@@ -93,6 +93,15 @@ The carousel starts at index 1, which is the first real item ( "A" ).
 When scrolling right (forward), the internal index increases.In the real front-end banner component, the scroll to the cloned banner A is animated, and followed by an instant jump to the real A, creating an illusion of infinite scrolling.
 ```
 
+![effect](./public//carousel.png)
+
+### (2) Image-Text-Section
+
+- [repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
+
+![1](./public/image-text-section.png)
+![2](./public/image-text-section2.png)
+
 ### English
 
 ```
@@ -122,4 +131,21 @@ Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 2.1
 Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 请丢弃幻想，立即着手处理这项任务
+
+
+3
+carousel 旋转木马 n
+roller coaster. 过山车 n
+cup coaster. 杯垫 n
+-
+【 roller coaster. 过山车 n 】
+【 cup coaster. 杯垫 n 】
+【 coaster 杯垫 n 】
+【 toaster 烤面包机 n 】
+-
+3.1
+There are 【 roller coaster 】 and 【 carousel 】 models placed on the 【 cup coaster 】.
+杯垫上放着过山车和旋转木马模型
+// -- 【 cup coaster. 杯垫 n 】
+// -- 【 roller coaster. 过山车 n 】
 ```
