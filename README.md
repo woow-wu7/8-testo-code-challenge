@@ -23,7 +23,7 @@ Testo-Code-Challenge
 
 ### (1) Carousel
 
-### 1.0 [CodeSandbox/open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
+#### 1.0 [CodeSandbox/open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
 
 #### 1.1 Carousel implementation - `Only scrolling right.`
 
