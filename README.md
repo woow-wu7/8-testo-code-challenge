@@ -1,5 +1,25 @@
 ### Testo-Code-Challenge
 
+### directory
+
+```
+Testo-Code-Challenge
+├─ (1) Carousel
+│  ├─ 1.1 Carousel implementation - Only scrolling right.
+│  ├─ 1.2 Carousel implementation - Scrolling left and right.
+│  │   └─ Requirements
+│  └─ 效果图
+│      ├─ effect-left
+│      └─ effect-left-right
+│
+├─ (2) Image-Text-Section
+│  └─ repository-link + 示例截图
+│
+├─ English
+│  ├─ (1) 2025-08-25
+│  └─ (2) 2025-08-28
+```
+
 ### (1) Carousel
 
 - [codesandbox-open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
@@ -169,8 +189,8 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
-![2](./public/image-text-section3.png)
-![2](./public/image-text-section4.png)
+![3](./public/image-text-section3.png)
+![4](./public/image-text-section4.png)
 
 ### English
 
