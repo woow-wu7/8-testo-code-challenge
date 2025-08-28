@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { simulateScroll } from "./carousel.ts";
+import { simulateScroll } from "./carousel-Left.js";
 
 function App() {
   useEffect(() => {

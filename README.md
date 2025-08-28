@@ -2,7 +2,7 @@
 
 ### (1) Carousel
 
-#### 1.1 Carousel implementation
+#### 1.1 Carousel implementation - `Only scrolling right.`
 
 ```ts
 type ScrollResult = {
@@ -75,6 +75,71 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 */
 ```
 
+#### 1.2 Carousel implementation - `Scrolling left and right.`
+```ts
+
+// -------
+// 2
+// Scrolling left and right.
+// -
+// C ABC A
+// simulateScroll(["A", "B", "C"], 0, 'left');
+// 0 scrolling. { internalIndex: 1, needsJump: false }
+// 1 scrolling. { internalIndex: 0, needsJump: true, jumpToIndex: 3 }
+// 2 scrolling. { internalIndex: 2, needsJump: false }
+// 3 scrolling. { internalIndex: 1, needsJump: false }
+// 4 scrolling. { internalIndex: 0, needsJump: true, jumpToIndex: 3 }
+// 5 scrolling. { internalIndex: 2, needsJump: false }
+// 6 scrolling. { internalIndex: 1, needsJump: false }
+// 7 scrolling. { internalIndex: 0, needsJump: true, jumpToIndex: 3 }
+// -
+// D ABCD A
+// simulateScroll(["A", "B", "C", "D"], 0, left);
+// 0 scrolling. { internalIndex: 1, needsJump: false }
+// 1 scrolling. { internalIndex: 0, needsJump: true, jumpToIndex: 4 }
+// 2 scrolling. { internalIndex: 3, needsJump: false }
+// 3 scrolling. { internalIndex: 2, needsJump: false }
+// 4 scrolling. { internalIndex: 1, needsJump: false }
+// 5 scrolling. { internalIndex: 0, needsJump: true, jumpToIndex: 4 }
+// 6 scrolling. { internalIndex: 3, needsJump: false }
+// 7 scrolling. { internalIndex: 2, needsJump: false }
+export function simulateScroll2(banners: string[], scroll: number, direction: "left" | "right"): ScrollResult {
+  const len = banners.length;
+
+  if (direction === "right") {
+    if (scroll === 0) return { internalIndex: 1, needsJump: false };
+    if (scroll % len === 0) return { internalIndex: len + 1, needsJump: true, jumpToIndex: 1 };
+    return { internalIndex: (scroll % len) + 1, needsJump: false };
+  }
+
+  if (direction === "left") {
+    if (scroll === 0) return { internalIndex: 1, needsJump: false };
+    const mod = scroll % len;
+    if (mod === 1) return { internalIndex: 0, needsJump: true, jumpToIndex: len };
+    if (mod === 0) return { internalIndex: 1, needsJump: false };
+    return { internalIndex: len - mod + 1, needsJump: false };
+  }
+
+  return { internalIndex: 1, needsJump: false };
+}
+const res_0 = simulateScroll2(["A", "B", "C", "D"], 0, "left");
+const res_1 = simulateScroll2(["A", "B", "C", "D"], 1, "left");
+const res_2 = simulateScroll2(["A", "B", "C", "D"], 2, "left");
+const res_3 = simulateScroll2(["A", "B", "C", "D"], 3, "left");
+const res_4 = simulateScroll2(["A", "B", "C", "D"], 4, "left");
+const res_5 = simulateScroll2(["A", "B", "C", "D"], 5, "left");
+const res_6 = simulateScroll2(["A", "B", "C", "D"], 6, "left");
+const res_7 = simulateScroll2(["A", "B", "C", "D"], 7, "left");
+console.log("res_0: ", res_0);
+console.log("res_1: ", res_1);
+console.log("res_2: ", res_2);
+console.log("res_3: ", res_3);
+console.log("res_4: ", res_4);
+console.log("res_5: ", res_5);
+console.log("res_6: ", res_6);
+console.log("res_7: ", res_7);
+```
+
 #### 1.2 Requirements:
 
 ```
@@ -106,48 +171,76 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ### English
 
+### (1) 2025-08-25
+
 ```
 1
+carousel 旋转木马 n
+roller coaster. 过山车 n
+cup coaster. 杯垫 n
+-
+【 // roller coaster. 过山车 n 】
+【 // cup coaster. 杯垫 n 】
+【 coaster 杯垫 n 】
+【 toaster 烤面包机 n 】
+-
+1.1
+He plans to 【 ride 】 the 【 carousel 】 first, 【 followed by 】 the 【 roller coaster 】.
+他准备先坐旋转木马，紧接着坐过山车
+-
+1.2
+There are 【 roller coaster 】 and 【 carousel 】 models placed on the 【 cup coaster 】.
+杯垫上放着过山车和旋转木马模型
+// -- 【 cup coaster. 杯垫 n 】
+// -- 【 roller coaster. 过山车 n 】
+
+
+
+2
 【 tackle 应付 解决 v 】
 【 tack 大头钉 图钉 n / 钉上 v 】
 【 pin 大头针 别针 钢钉 钢针 n / 钉住 别住 v 】
 -
-【 tackle the task. 解决任务 v 】
-【 tackle the problem. 解决问题 v 】
+【 // tackle the task. 解决任务 v 】
+【 // tackle the problem. 解决问题 v 】
 -
-1.1
+【 // sticky note. 便签 n 】
+【 // discard illusion. 丢弃幻想 v 】 VS 【 face reality. 面对现实 v 】
+【 // face reality. 面对现实 v 】
+-
+discard. = abandon. 丢弃 v
+-
+2.1
 他准备把便签纸用大头钉钉在墙上，便签纸上有我们需要解决的任务
 He is preparing to 【 tack / pin 】 the 【 sticky notes 】 to the wall with 【 tacks 】, and there are tasks that we need to 【 tackle 】 on the sticky notes.
 // -- 【 sticky notes. 便签 n 】
 // -- 【 tack VS tackle VS pin 】
 -
-1.2
+2.2
 Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 请丢弃幻想，立即着手处理这项任务
 
-
-2
-【 illusion 幻想 错觉 n 】
-【 discard illusion. 丢弃幻想 v 】
--
-2.1
-Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
-请丢弃幻想，立即着手处理这项任务
 
 
 3
-carousel 旋转木马 n
-roller coaster. 过山车 n
-cup coaster. 杯垫 n
--
-【 roller coaster. 过山车 n 】
-【 cup coaster. 杯垫 n 】
-【 coaster 杯垫 n 】
-【 toaster 烤面包机 n 】
+【 illusion 幻想 错觉 n 】
+【 // discard illusion. 丢弃幻想 v 】
+【 // face reality. 面对现实 v 】
 -
 3.1
-There are 【 roller coaster 】 and 【 carousel 】 models placed on the 【 cup coaster 】.
-杯垫上放着过山车和旋转木马模型
-// -- 【 cup coaster. 杯垫 n 】
-// -- 【 roller coaster. 过山车 n 】
+Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
+请丢弃幻想，立即着手处理这项任务
+```
+
+### (2) 2025-08-28
+
+```
+1
+followed by. 紧接着是... 接下来是...
+-
+【 A, followed by B. 】 = 【 A, and then B 】
+-
+1
+He plans to ride the 【 carousel 】 first, 【 followed by 】 the 【 roller coaster 】.
+他准备先坐旋转木马，紧接着坐过山车
 ```
