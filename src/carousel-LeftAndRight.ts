@@ -43,6 +43,16 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 
   return { internalIndex: (scroll % len) + 1, needsJump: false };
 }
+const result0 = simulateScroll(["A", "B", "C"], 0);
+const result3 = simulateScroll(["A", "B", "C"], 3);
+const result4 = simulateScroll(["A", "B", "C"], 4);
+const result5 = simulateScroll(["A", "B", "C"], 5);
+const result6 = simulateScroll(["A", "B", "C"], 6);
+console.log("result0", result0);
+console.log("result3", result3);
+console.log("result4", result4);
+console.log("result5", result5);
+console.log("result6", result6);
 
 // -------
 // 2

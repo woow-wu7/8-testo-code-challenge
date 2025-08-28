@@ -160,7 +160,8 @@ The carousel starts at index 1, which is the first real item ( "A" ).
 When scrolling right (forward), the internal index increases.In the real front-end banner component, the scroll to the cloned banner A is animated, and followed by an instant jump to the real A, creating an illusion of infinite scrolling.
 ```
 
-![effect](./public//carousel.png)
+![effect-left](./public//carousel.png)
+![effect-left-right](./public/carousel2.png)
 
 ### (2) Image-Text-Section
 
