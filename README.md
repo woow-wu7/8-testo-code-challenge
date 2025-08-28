@@ -2,6 +2,8 @@
 
 ### (1) Carousel
 
+- [codesandbox-open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
+
 #### 1.1 Carousel implementation - `Only scrolling right.`
 
 ```ts
@@ -76,8 +78,8 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 ```
 
 #### 1.2 Carousel implementation - `Scrolling left and right.`
-```ts
 
+```ts
 // -------
 // 2
 // Scrolling left and right.
