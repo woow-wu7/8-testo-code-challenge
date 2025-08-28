@@ -5,6 +5,7 @@
 ```
 Testo-Code-Challenge
 ├─ (1) Carousel
+│  ├─ 1.0 CodeSandbox/open-browser's-console link.
 │  ├─ 1.1 Carousel implementation - Only scrolling right.
 │  ├─ 1.2 Carousel implementation - Scrolling left and right.
 │  │   └─ Requirements
@@ -22,7 +23,7 @@ Testo-Code-Challenge
 
 ### (1) Carousel
 
-- [codesandbox-open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
+### 1.0 [CodeSandbox/open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
 
 #### 1.1 Carousel implementation - `Only scrolling right.`
 
