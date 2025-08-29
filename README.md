@@ -1,6 +1,16 @@
 ### Testo-Code-Challenge
 
-### directory
+- [Testo-Code-Challenge](#testo-code-challenge)
+- [(1) Carousel](#1-carousel)
+  - [1.0 CodeSandbox/open-browser's-console](#10-codesandboxopen-browsers-console)
+  - [1.1 Carousel implementation - `Only scrolling right.`](#11-carousel-implementation---only-scrolling-right)
+  - [1.2 Carousel implementation - `Scrolling left and right.`](#12-carousel-implementation---scrolling-left-and-right)
+  - [1.3 Requirements:](#13-requirements)
+- [(2) Image-Text-Section](#2-image-text-section)
+  - [2.1 Image-Text-Section repository link](#21-image-text-section-repository-link)
+- [English](#english)
+  - [(1) 2025-08-25](#1-2025-08-25)
+  - [(2) 2025-08-28](#2-2025-08-28)
 
 ```
 Testo-Code-Challenge
@@ -9,17 +19,19 @@ Testo-Code-Challenge
 │  ├─ 1.1 Carousel implementation - Only scrolling right.
 │  ├─ 1.2 Carousel implementation - Scrolling left and right.
 │  │   └─ Requirements
-│  └─ 效果图
+│  └─ UI Mockup
 │      ├─ effect-left
 │      └─ effect-left-right
 │
 ├─ (2) Image-Text-Section
-│  └─ repository-link + 示例截图
+│  └─ repository-link + UI Mockup
 │
 ├─ English
 │  ├─ (1) 2025-08-25
 │  └─ (2) 2025-08-28
 ```
+
+---
 
 ### (1) Carousel
 
@@ -163,7 +175,7 @@ console.log("res_6: ", res_6);
 console.log("res_7: ", res_7);
 ```
 
-#### 1.2 Requirements:
+#### 1.3 Requirements:
 
 ```
 Question:
@@ -186,7 +198,9 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ### (2) Image-Text-Section
 
-- [repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
+#### 2.1 Image-Text-Section repository link
+
+- [Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
@@ -195,7 +209,7 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ### English
 
-### (1) 2025-08-25
+#### (1) 2025-08-25
 
 ```
 1
@@ -256,15 +270,31 @@ Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 请丢弃幻想，立即着手处理这项任务
 ```
 
-### (2) 2025-08-28
+#### (2) 2025-08-28
 
 ```
 1
 followed by. 紧接着是... 接下来是...
+【 follow-up. 后续的 adj 】
+【 follow up. 跟进 v】
 -
 【 A, followed by B. 】 = 【 A, and then B 】
 -
-1
+follow-up process. 后续流程 n
+-
+1.1
 He plans to ride the 【 carousel 】 first, 【 followed by 】 the 【 roller coaster 】.
 他准备先坐旋转木马，紧接着坐过山车
+
+
+
+2
+【 retrieve 检索 获取 取回 v 】
+-
+【 // retrieve data. 检索数据 v 】
+【 // retrieve data. 获取数据 v  】
+-
+2.1
+We need to 【 retrieve 】 data first, and then 【 retrieve 】 data through the API.
+我们需要先检索数据，再通过 API 获取数据
 ```
