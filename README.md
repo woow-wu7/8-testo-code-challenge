@@ -1,16 +1,16 @@
-### Testo-Code-Challenge
+# Testo-Code-Challenge
 
 - [Testo-Code-Challenge](#testo-code-challenge)
-- [(1) Carousel](#1-carousel)
-  - [1.0 CodeSandbox/open-browser's-console](#10-codesandboxopen-browsers-console)
-  - [1.1 Carousel implementation - `Only scrolling right.`](#11-carousel-implementation---only-scrolling-right)
-  - [1.2 Carousel implementation - `Scrolling left and right.`](#12-carousel-implementation---scrolling-left-and-right)
-  - [1.3 Requirements:](#13-requirements)
-- [(2) Image-Text-Section](#2-image-text-section)
-  - [2.1 Image-Text-Section repository link](#21-image-text-section-repository-link)
-- [English](#english)
-  - [(1) 2025-08-25](#1-2025-08-25)
-  - [(2) 2025-08-28](#2-2025-08-28)
+  - [(1) Carousel](#1-carousel)
+    - [1.0 CodeSandbox/open-browser's-console](#10-codesandboxopen-browsers-console)
+    - [1.1 Carousel implementation - `Only scrolling right.`](#11-carousel-implementation---only-scrolling-right)
+    - [1.2 Carousel implementation - `Scrolling left and right.`](#12-carousel-implementation---scrolling-left-and-right)
+    - [1.3 Requirements:](#13-requirements)
+  - [(2) Image-Text-Section](#2-image-text-section)
+    - [2.1 Image-Text-Section repository link](#21-image-text-section-repository-link)
+  - [English](#english)
+    - [(1) 2025-08-25](#1-2025-08-25)
+    - [(2) 2025-08-28](#2-2025-08-28)
 
 ```
 Testo-Code-Challenge
@@ -31,13 +31,11 @@ Testo-Code-Challenge
 │  └─ (2) 2025-08-28
 ```
 
----
+## (1) Carousel
 
-### (1) Carousel
+### 1.0 [CodeSandbox/open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
 
-#### 1.0 [CodeSandbox/open-browser's-console](https://codesandbox.io/p/sandbox/testo-code-challenge-4mw95f)
-
-#### 1.1 Carousel implementation - `Only scrolling right.`
+### 1.1 Carousel implementation - `Only scrolling right.`
 
 ```ts
 type ScrollResult = {
@@ -110,7 +108,7 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 */
 ```
 
-#### 1.2 Carousel implementation - `Scrolling left and right.`
+### 1.2 Carousel implementation - `Scrolling left and right.`
 
 ```ts
 // -------
@@ -175,7 +173,7 @@ console.log("res_6: ", res_6);
 console.log("res_7: ", res_7);
 ```
 
-#### 1.3 Requirements:
+### 1.3 Requirements:
 
 ```
 Question:
@@ -196,20 +194,20 @@ When scrolling right (forward), the internal index increases.In the real front-e
 ![effect-left](./public//carousel.png)
 ![effect-left-right](./public/carousel2.png)
 
-### (2) Image-Text-Section
+## (2) Image-Text-Section
 
-#### 2.1 Image-Text-Section repository link
+### 2.1 Image-Text-Section repository link
 
-- [Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
+[Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
 ![3](./public/image-text-section3.png)
 ![4](./public/image-text-section4.png)
 
-### English
+## English
 
-#### (1) 2025-08-25
+### (1) 2025-08-25
 
 ```
 1
@@ -270,7 +268,7 @@ Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 请丢弃幻想，立即着手处理这项任务
 ```
 
-#### (2) 2025-08-28
+### (2) 2025-08-28
 
 ```
 1
