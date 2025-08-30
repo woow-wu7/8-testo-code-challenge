@@ -224,6 +224,7 @@ cup coaster. 杯垫 n
 1.1
 He plans to 【 ride 】 the 【 carousel 】 first, 【 followed by 】 the 【 roller coaster 】.
 他准备先坐旋转木马，紧接着坐过山车
+// -- 【 followed by. 紧接着 】
 -
 1.2
 There are 【 roller coaster 】 and 【 carousel 】 models placed on the 【 cup coaster 】.
@@ -246,6 +247,7 @@ There are 【 roller coaster 】 and 【 carousel 】 models placed on the 【 c
 【 // face reality. 面对现实 v 】
 -
 discard. = abandon. 丢弃 v
+tackle = handle = solve = resolve = deal with. = [address-地址n-解决v]. 解决 应付 处理 v
 -
 2.1
 他准备把便签纸用大头钉钉在墙上，便签纸上有我们需要解决的任务
@@ -261,6 +263,10 @@ Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 
 3
 【 illusion 幻想 错觉 n 】
+【 reality 现实 n 】
+【 reliable 可靠的 adj 】
+【 relative 相对的 adj / 亲戚 n 】
+-
 【 // discard illusion. 丢弃幻想 v 】
 【 // face reality. 面对现实 v 】
 -
