@@ -198,7 +198,8 @@ When scrolling right (forward), the internal index increases.In the real front-e
 
 ### 2.1 Image-Text-Section repository link
 
-[Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
+[Requirement:Image-Text-Section/repository-link](https://github.com/DevOpsESolutionTesto/frontend-coding-challenge)
+[Implementation:Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
@@ -273,14 +274,36 @@ Please 【 discard illusions 】 and 【 tackle 】 the task immediately.
 ```
 1
 followed by. 紧接着是... 接下来是...
-【 follow-up. 后续的 adj 】
-【 follow up. 跟进 v】
+-
+【 flow 流动 流淌 v / 流 n 】
+【 follow 跟随 沿着 v 】
+【 following 下列的 adj 】
+inflow 流入 n
+outflow 流出 n
+overflow 溢出 v n
+workflow 工作流 n
+data flow. 数据流 n
+cash flow. 现金流 n
+flowchart 流程图 n
+flow out. 流出 v
+// follow up. 跟进 v
+// follow-up. 后续的 adj
+// follow-up process. 后续流程 n
+// followed by. 紧接着是... 接下来是...
 -
 【 A, followed by B. 】 = 【 A, and then B 】
 -
-follow-up process. 后续流程 n
+cash VS cache
 -
 1.1
+He is using the 【 flowchart 】 to describe the inflows and outflows of the 【 data flow 】 and 【 cash flow 】.
+他正在用流程图描述流入和流出的数据流和现金流
+-
+1.2
+Please 【 follow up 】 the 【 follow-up process 】 according to the 【 following 】 demands.
+请根据以下要求，跟进后续流程
+-
+1.3
 He plans to ride the 【 carousel 】 first, 【 followed by 】 the 【 roller coaster 】.
 他准备先坐旋转木马，紧接着坐过山车
 
@@ -289,10 +312,29 @@ He plans to ride the 【 carousel 】 first, 【 followed by 】 the 【 roller 
 2
 【 retrieve 检索 获取 取回 v 】
 -
+【 // retrieve database. 检索数据库 v 】
 【 // retrieve data. 检索数据 v 】
+-
 【 // retrieve data. 获取数据 v  】
 -
 2.1
-We need to 【 retrieve 】 data first, and then 【 retrieve 】 data through the API.
-我们需要先检索数据，再通过 API 获取数据
+We need to 【 retrieve 】 the 【 database 】 first, and then 【 retrieve 】 data through the API.
+我们需要先检索数据库，再通过 API 获取数据
+
+
+
+3
+【 further 更多的 adj / 更远地 adv 】
+-
+【 // further information. 更多的信息 n 】
+【 // look further ahead. 展望地更远 v 】
+【 // look forward to sth. 期待某事 v 】
+-
+3.1
+We 【 look forward to 】 your 【 looking further ahead 】 and obtaining 【 further information 】.
+我们期待你能展望地更远，获得更多的信息
+// -- look forward to your response.
+// -- look ahead. 展望 v
+// -- look further ahead. 展望地更远 v
+// -- further information. 更多信息
 ```
