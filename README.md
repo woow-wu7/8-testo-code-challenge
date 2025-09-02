@@ -1,6 +1,7 @@
 # Testo-Code-Challenge
 
 - [Testo-Code-Challenge](#testo-code-challenge)
+  - [Feedback](#feedback)
   - [(1) Carousel](#1-carousel)
     - [1.0 CodeSandbox/open-browser's-console](#10-codesandboxopen-browsers-console)
     - [1.1 Carousel implementation - `Only scrolling right.`](#11-carousel-implementation---only-scrolling-right)
@@ -30,6 +31,11 @@ Testo-Code-Challenge
 │  ├─ (1) 2025-08-25
 │  └─ (2) 2025-08-28
 ```
+
+## Feedback
+
+[ ] time limit.
+[ ] Ts
 
 ## (1) Carousel
 

@@ -44,6 +44,7 @@ type ScrollResult = {
 // Only scrolling right.
 // -
 // ABC A
+// ABCD A
 export function simulateScroll(banners: string[], scroll: number): ScrollResult {
   const len = banners.length;
 
