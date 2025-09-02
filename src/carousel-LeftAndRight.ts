@@ -51,16 +51,16 @@ export function simulateScroll(banners: string[], scroll: number): ScrollResult 
 
   return { internalIndex: (scroll % len) + 1, needsJump: false };
 }
-const result0 = simulateScroll(["A", "B", "C"], 0);
-const result3 = simulateScroll(["A", "B", "C"], 3);
-const result4 = simulateScroll(["A", "B", "C"], 4);
-const result5 = simulateScroll(["A", "B", "C"], 5);
-const result6 = simulateScroll(["A", "B", "C"], 6);
-console.log("result0", result0);
-console.log("result3", result3);
-console.log("result4", result4);
-console.log("result5", result5);
-console.log("result6", result6);
+// const result0 = simulateScroll(["A", "B", "C"], 0);
+// const result3 = simulateScroll(["A", "B", "C"], 3);
+// const result4 = simulateScroll(["A", "B", "C"], 4);
+// const result5 = simulateScroll(["A", "B", "C"], 5);
+// const result6 = simulateScroll(["A", "B", "C"], 6);
+// console.log("result0", result0);
+// console.log("result3", result3);
+// console.log("result4", result4);
+// console.log("result5", result5);
+// console.log("result6", result6);
 
 // -------
 // 2
@@ -106,22 +106,22 @@ export function simulateScroll2(banners: string[], scroll: number, direction: "l
 
   return { internalIndex: 1, needsJump: false };
 }
-const res_0 = simulateScroll2(["A", "B", "C", "D"], 0, "left");
-const res_1 = simulateScroll2(["A", "B", "C", "D"], 1, "left");
-const res_2 = simulateScroll2(["A", "B", "C", "D"], 2, "left");
-const res_3 = simulateScroll2(["A", "B", "C", "D"], 3, "left");
-const res_4 = simulateScroll2(["A", "B", "C", "D"], 4, "left");
-const res_5 = simulateScroll2(["A", "B", "C", "D"], 5, "left");
-const res_6 = simulateScroll2(["A", "B", "C", "D"], 6, "left");
-const res_7 = simulateScroll2(["A", "B", "C", "D"], 7, "left");
-console.log("res_0: ", res_0);
-console.log("res_1: ", res_1);
-console.log("res_2: ", res_2);
-console.log("res_3: ", res_3);
-console.log("res_4: ", res_4);
-console.log("res_5: ", res_5);
-console.log("res_6: ", res_6);
-console.log("res_7: ", res_7);
+// const res_0 = simulateScroll2(["A", "B", "C", "D"], 0, "left");
+// const res_1 = simulateScroll2(["A", "B", "C", "D"], 1, "left");
+// const res_2 = simulateScroll2(["A", "B", "C", "D"], 2, "left");
+// const res_3 = simulateScroll2(["A", "B", "C", "D"], 3, "left");
+// const res_4 = simulateScroll2(["A", "B", "C", "D"], 4, "left");
+// const res_5 = simulateScroll2(["A", "B", "C", "D"], 5, "left");
+// const res_6 = simulateScroll2(["A", "B", "C", "D"], 6, "left");
+// const res_7 = simulateScroll2(["A", "B", "C", "D"], 7, "left");
+// console.log("res_0: ", res_0);
+// console.log("res_1: ", res_1);
+// console.log("res_2: ", res_2);
+// console.log("res_3: ", res_3);
+// console.log("res_4: ", res_4);
+// console.log("res_5: ", res_5);
+// console.log("res_6: ", res_6);
+// console.log("res_7: ", res_7);
 
 // 1
 // Test Case:
