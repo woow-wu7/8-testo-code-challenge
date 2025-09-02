@@ -25,6 +25,14 @@ type ScrollResult = {
 // - Reverse Thinking: When "scroll%len===0", at this time we reach the first banner in "original list", we need to jump to last banner in "augmented list".
 // 3.
 // Except 12: We can get internalIndex using "(scroll%len) + 1" and we don't need jump.
+// 4.
+// Boundary
+// internalIndex: 1 ~ original list length + 1
+// 5.
+// Concept
+// - cloned item.
+// - real item.
+// - internalIndex.
 
 // (2)
 // Question
@@ -34,6 +42,8 @@ type ScrollResult = {
 // -------
 // 1
 // Only scrolling right.
+// -
+// ABC A
 export function simulateScroll(banners: string[], scroll: number): ScrollResult {
   const len = banners.length;
 

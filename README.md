@@ -62,6 +62,14 @@ type ScrollResult = {
 // - Reverse Thinking: When "scroll%len===0", at this time we reach the first banner in "original list", we need to jump to last banner in "augmented list".
 // 3.
 // Except 12: we can get internalIndex using "(scroll%len) + 1" and we don't need jump.
+// 4.
+// boundary
+// internalIndex: 1 ~ original list length + 1
+// 5.
+// Concept
+// - cloned item.
+// - real item.
+// - internalIndex.
 
 export function simulateScroll(banners: string[], scroll: number): ScrollResult {
   const len = banners.length;
@@ -199,6 +207,7 @@ When scrolling right (forward), the internal index increases.In the real front-e
 ### 2.1 Image-Text-Section repository link
 
 [Requirement:Image-Text-Section/repository-link](https://github.com/DevOpsESolutionTesto/frontend-coding-challenge)
+
 [Implementation:Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
 
 ![1](./public/image-text-section.png)
@@ -250,8 +259,8 @@ discard. = abandon. 丢弃 v
 tackle = handle = solve = resolve = deal with. = [address-地址n-解决v]. 解决 应付 处理 v
 -
 2.1
-他准备把便签纸用大头钉钉在墙上，便签纸上有我们需要解决的任务
 He is preparing to 【 tack / pin 】 the 【 sticky notes 】 to the wall with 【 tacks 】, and there are tasks that we need to 【 tackle 】 on the sticky notes.
+他准备把便签纸用大头钉钉在墙上，便签纸上有我们需要解决的任务
 // -- 【 sticky notes. 便签 n 】
 // -- 【 tack VS tackle VS pin 】
 -
