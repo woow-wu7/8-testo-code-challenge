@@ -9,6 +9,8 @@
     - [1.3 Requirements:](#13-requirements)
   - [(2) Image-Text-Section](#2-image-text-section)
     - [2.1 Image-Text-Section repository link](#21-image-text-section-repository-link)
+    - [2.2 Storyblok](#22-storyblok)
+    - [2.3 Effect](#23-effect)
   - [English](#english)
     - [(1) 2025-08-25](#1-2025-08-25)
     - [(2) 2025-08-28](#2-2025-08-28)
@@ -34,8 +36,8 @@ Testo-Code-Challenge
 
 ## Feedback
 
-[ ] time limit.
-[ ] Ts
+- [ ] time limit.
+- [ ] Ts
 
 ## (1) Carousel
 
@@ -215,6 +217,34 @@ When scrolling right (forward), the internal index increases.In the real front-e
 [Requirement:Image-Text-Section/repository-link](https://github.com/DevOpsESolutionTesto/frontend-coding-challenge)
 
 [Implementation:Image-Text-Section/repository-link](https://github.com/woow-wu7/8-testo-frontend-coding-challenge)
+
+### 2.2 Storyblok
+
+```
+1
+create new Space. // research
+
+2
+create new Story. // testo
+- slug: // ------------------------ 'slug' as an 【 identifier 】 in URL.
+- contentType: default-page // ---- So, you need to create a component in your project.
+- then will enter in the editing page to see changes in real-time.
+- then you can according your preference to configure your page.
+
+3
+access-token
+- setting -> Access-Token
+- // Public
+- // Preview
+
+
+4
+preview
+- https
+- tutorial: https://www.storyblok.com/tp/add-a-headless-cms-with-live-preview-to-qwik-in-5-minutes
+```
+
+### 2.3 Effect
 
 ![1](./public/image-text-section.png)
 ![2](./public/image-text-section2.png)
